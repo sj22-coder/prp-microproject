@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>TripNest Dashboard</h1>
+
+<div class="nav-buttons">
+
+<a href="/add_trip">Add Trip</a>
+<a href="/want_to_go">Bucket List</a>
+<a href="/visited">Visited Trips</a>
+<a href="/expenses">Expenses</a>
+
+</div>
+
+<h2>Travel Statistics</h2>
+
+<p style="text-align:center;">Total Trips: {{total}}</p>
+<p style="text-align:center;">Visited Trips: {{visited}}</p>
+<p style="text-align:center;">Average Budget: ₹{{avg_budget}}</p>
+
+<table>
+
+<tr>
+<th>Place</th>
+<th>Budget</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+
+{% for t in trips %}
+
+<tr>
+<td>{{t.place}}</td>
+<td>{{t.budget}}</td>
+<td>{{t.status}}</td>
+
+<td>
+<a href="/visited/{{t.id}}">Mark Visited</a>
+<a href="/delete_trip/{{t.id}}" 
+style="background:#ff5c5c;color:white;padding:5px 10px;border-radius:6px;">
+Delete
+</a>
+</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</body>
+</html>
