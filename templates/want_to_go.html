@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Bucket List</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>Places I Want To Visit</h1>
+
+<table>
+
+<tr>
+<th>Destination</th>
+<th>Budget</th>
+</tr>
+
+{% for t in trips %}
+
+<tr>
+<td>{{t.place}}</td>
+<td>₹{{t.budget}}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<div style="text-align:center;margin-top:20px;">
+<a href="/dashboard">Back to Dashboard</a>
+</div>
+
+</body>
+</html>
