@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Trip Expenses</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>Track Trip Expenses</h1>
+
+<form method="post">
+
+<select name="trip_id">
+
+{% for t in trips %}
+<option value="{{t.id}}">{{t.place}}</option>
+{% endfor %}
+
+</select>
+
+<input name="amount" placeholder="Expense Amount ₹" required>
+
+<input name="category" placeholder="Category (Food, Travel, Hotel)" required>
+
+<button type="submit">Add Expense</button>
+
+</form>
+
+<h2>Expense History</h2>
+
+<table>
+
+<tr>
+<th>Trip</th>
+<th>Amount</th>
+<th>Category</th>
+</tr>
+
+{% for e in data %}
+
+<tr>
+<td>{{e.trip_id}}</td>
+<td>₹{{e.amount}}</td>
+<td>{{e.category}}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<div style="text-align:center;margin-top:20px;">
+<a href="/dashboard">Back to Dashboard</a>
+</div>
+
+</body>
+</html>
