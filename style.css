@@ -1,0 +1,267 @@
+/* Import elegant font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+    margin:0;
+    padding:0;
+
+    background: linear-gradient(135deg,#cfe9ff,#e6f4ff,#b3d9ff);
+
+    min-height:100vh;
+
+    color:#00334d;
+}
+
+
+/* Main Title */
+
+h1{
+    text-align:center;
+
+    font-size:42px;
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+    margin-top:30px;
+
+    color:#003366;
+}
+
+
+/* Section Titles */
+
+h2{
+    text-align:center;
+
+    font-weight:500;
+
+    margin-top:25px;
+
+    color:#004c80;
+}
+
+
+/* Paragraph styling */
+
+p{
+    text-align:center;
+
+    font-size:16px;
+
+    letter-spacing:0.5px;
+
+    color:#004c66;
+}
+
+
+/* Form container */
+
+form{
+
+    width:340px;
+
+    margin:auto;
+
+    margin-top:25px;
+
+    padding:30px;
+
+    background:white;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+
+
+/* Input fields */
+
+input,select{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-top:10px;
+
+    margin-bottom:15px;
+
+    border-radius:8px;
+
+    border:1px solid #c9d6e2;
+
+    font-size:14px;
+
+    font-family:'Poppins', sans-serif;
+
+    transition:0.3s;
+}
+
+
+/* Input focus */
+
+input:focus,select:focus{
+
+    border-color:#3399ff;
+
+    outline:none;
+
+    box-shadow:0 0 6px rgba(51,153,255,0.4);
+}
+
+
+/* Buttons */
+
+button{
+
+    width:100%;
+
+    padding:11px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#3399ff;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    letter-spacing:0.5px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+button:hover{
+
+    background:#0077cc;
+
+    transform:scale(1.04);
+}
+
+
+/* Links */
+
+a{
+
+    text-decoration:none;
+
+    color:#0066cc;
+
+    font-weight:500;
+
+    letter-spacing:0.3px;
+
+    margin:5px;
+}
+
+a:hover{
+    color:#004999;
+}
+
+
+/* Navigation buttons */
+
+.nav-buttons{
+
+    text-align:center;
+
+    margin-top:20px;
+}
+
+.nav-buttons a{
+
+    background:#3399ff;
+
+    color:white;
+
+    padding:8px 16px;
+
+    border-radius:7px;
+
+    display:inline-block;
+
+    margin:6px;
+
+    font-size:14px;
+
+    transition:0.3s;
+}
+
+.nav-buttons a:hover{
+
+    background:#0077cc;
+
+    transform:scale(1.05);
+}
+
+
+/* Tables */
+
+table{
+
+    width:80%;
+
+    margin:auto;
+
+    margin-top:30px;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+/* Table headers */
+
+th{
+
+    background:#3399ff;
+
+    color:white;
+
+    padding:12px;
+
+    font-size:15px;
+
+    letter-spacing:0.5px;
+}
+
+
+/* Table cells */
+
+td{
+
+    padding:10px;
+
+    font-size:14px;
+
+    text-align:center;
+
+    color:#00334d;
+}
+
+
+/* Alternate rows */
+
+tr:nth-child(even){
+
+    background:#f2f9ff;
+}
