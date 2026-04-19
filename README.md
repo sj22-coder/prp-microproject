@@ -7,19 +7,19 @@ TripNest is a Flask-based web application designed to help users plan and organi
 The application uses a structured backend with SQLite for data storage and provides a smooth user experience through dynamic templates and clean UI design.
 
 🚀 Features
-🔐 User Registration & Login system
-✈️ Add and manage trips
-📍 Bucket List (Want to Visit places)
-✅ Mark trips as Visited
-💰 Expense tracking for each trip
-📊 Dashboard with travel statistics
-🧾 Organized database handling using SQLite
+1. 🔐 User Registration & Login system
+2. ✈️ Add and manage trips
+3. 📍 Bucket List (Want to Visit places)
+4. ✅ Mark trips as Visited
+5. 💰 Expense tracking for each trip
+6. 📊 Dashboard with travel statistics
+7. 🧾 Organized database handling using SQLite
 
 🛠️ Tech Stack
-Backend: Python (Flask)
-Frontend: HTML, CSS (Jinja2 Templates)
-Database: SQLite
-Version Control: Git & GitHub
+1. Backend: Python (Flask)
+2. Frontend: HTML, CSS (Jinja2 Templates)
+3. Database: SQLite
+4. Version Control: Git & GitHub
 
 📂 Project Structure
 TripNest/
@@ -43,16 +43,18 @@ TripNest/
 │   └── style.css
 
 🗄️ Database Schema (SQLite)
-Users Table
+1. Users Table:
 id (Primary Key)
 username (Unique)
 password
-Trips Table
+
+2. Trips Table:
 id (Primary Key)
 place
 budget
 status (want / visited)
-Expenses Table
+
+3. Expenses Table:
 id (Primary Key)
 trip_id (Foreign Key)
 amount
@@ -80,40 +82,36 @@ feature-expenses
 feature-dashboard
 feature-ui
 
-👥 Team Contributions
+👥 Team Contributions:
 
 Simran
-
-Developed main application (app.py)
-Implemented trips and expenses modules
-Created add_trip and expenses templates
+1. Developed main application (app.py)
+2. Implemented trips and expenses modules
+3. Created add_trip and expenses templates
 
 Heer
-
-Built authentication system (login/register)
-Handled user validation and database integration
+1. Built authentication system (login/register)
+2. Handled user validation and database integration
 
 Harsh
-
-Designed dashboard UI and pages
-Developed want_to_go and visited templates
-Styled entire application using CSS
+1. Designed dashboard UI and pages
+2. Developed want_to_go and visited templates
+3. Styled entire application using CSS
 
 🎥 Demo Video
 
 👉 Watch Project Demo
 
 📌 Future Enhancements
-🔒 Password hashing for better security
-📍 Map integration for locations
-📱 Mobile responsive UI
-📊 Advanced analytics for expenses
-☁️ Migration to MongoDB or cloud database
+1. 🔒 Password hashing for better security
+2. 📍 Map integration for locations
+3. 📱 Mobile responsive UI
+4. 📊 Advanced analytics for expenses
+5. ☁️ Migration to MongoDB or cloud database
+
 ⚠️ Notes
-Ensure Python and Flask are installed
-The project runs locally using SQLite
-No external database setup required
+1. Ensure Python and Flask are installed
+2. The project runs locally using SQLite
+3. No external database setup required
 
-💫 Final Thought
-
-TripNest isn’t just a tracker—it’s a quiet companion for every place you dream of and every journey you complete.
+💫 Final Thought: TripNest isn’t just a tracker—it’s a quiet companion for every place you dream of and every journey you complete.
