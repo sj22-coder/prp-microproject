@@ -117,4 +117,5 @@ feature-ui
 2. The project runs locally using SQLite
 3. No external database setup required
 
-## 💫 Final Thought: TripNest isn’t just a tracker—it’s a quiet companion for every place you dream of and every journey you complete.
+## 💫 Final Thought: 
+TripNest isn’t just a tracker—it’s a quiet companion for every place you dream of and every journey you complete.
