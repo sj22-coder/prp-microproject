@@ -21,18 +21,19 @@ The application uses a structured backend with SQLite for data storage and provi
 3. Database: SQLite
 4. Version Control: Git & GitHub
 
-## 📂 Project Structure
-'''
+📂 Project Structure
+
+```
 TripNest/
-│── app.py
-│── database/
+├── app.py
+├── database/
 │   └── db.py
-│── modules/
+├── modules/
 │   ├── auth.py
 │   ├── dashboard.py
 │   ├── trips.py
 │   ├── expenses.py
-│── templates/
+├── templates/
 │   ├── login.html
 │   ├── register.html
 │   ├── dashboard.html
@@ -40,9 +41,10 @@ TripNest/
 │   ├── expenses.html
 │   ├── want_to_go.html
 │   ├── visited.html
-│── static/
+├── static/
 │   └── style.css
-'''
+```
+
 🗄️ Database Schema (SQLite)
 1. Users Table:
 id (Primary Key)
