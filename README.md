@@ -1,12 +1,12 @@
- 🌍 TripNest – Interactive Travel Bucket List & Expense Planner
+ ## 🌍 TripNest – Interactive Travel Bucket List & Expense Planner
 
-🌟 Project Description
+## 🌟 Project Description
 
 TripNest is a Flask-based web application designed to help users plan and organize their travel journeys. It allows users to create a personal bucket list of destinations, track visited places, and manage trip-related expenses in a simple and interactive way.
 
 The application uses a structured backend with SQLite for data storage and provides a smooth user experience through dynamic templates and clean UI design.
 
-🚀 Features
+## 🚀 Features
 1. 🔐 User Registration & Login system
 2. ✈️ Add and manage trips
 3. 📍 Bucket List (Want to Visit places)
@@ -15,13 +15,13 @@ The application uses a structured backend with SQLite for data storage and provi
 6. 📊 Dashboard with travel statistics
 7. 🧾 Organized database handling using SQLite
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 1. Backend: Python (Flask)
 2. Frontend: HTML, CSS (Jinja2 Templates)
 3. Database: SQLite
 4. Version Control: Git & GitHub
 
-📂 Project Structure
+## 📂 Project Structure
 
 ```
 TripNest/
@@ -45,7 +45,7 @@ TripNest/
 │   └── style.css
 ```
 
-🗄️ Database Schema (SQLite)
+## 🗄️ Database Schema (SQLite)
 1. Users Table:
 id (Primary Key)
 username (Unique)
@@ -63,7 +63,7 @@ trip_id (Foreign Key)
 amount
 category
 
-⚙️ How to Run the Project
+## ⚙️ How to Run the Project
 1. Clone the repository: git clone <your-repository-link>
 2. Navigate to the project folder: cd TripNest
 3. Install required dependencies: pip install flask
@@ -72,49 +72,49 @@ category
 
 👉 The database will be automatically created when the app runs for the first time.
 
-🔀 GitHub Collaboration
+## 🔀 GitHub Collaboration
 Followed feature branch strategy
 Each module was developed separately
 Pull Requests were used before merging into main
 Regular commits made by all team members
 
-Example branches:
+## Example branches:
 feature-auth
 feature-trips
 feature-expenses
 feature-dashboard
 feature-ui
 
-👥 Team Contributions:
+## 👥 Team Contributions:
 
-Simran
+## Simran Joshi - B022 
 1. Developed main application (app.py)
 2. Implemented trips and expenses modules
 3. Created add_trip and expenses templates
 
-Heer
+## Heer Doshi - B012 
 1. Built authentication system (login/register)
 2. Handled user validation and database integration
 
-Harsh
+## Harsh Desai - B070
 1. Designed dashboard UI and pages
 2. Developed want_to_go and visited templates
 3. Styled entire application using CSS
 
-🎥 Demo Video
+## 🎥 Demo Video
 
 👉 Watch Project Demo
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 1. 🔒 Password hashing for better security
 2. 📍 Map integration for locations
 3. 📱 Mobile responsive UI
 4. 📊 Advanced analytics for expenses
 5. ☁️ Migration to MongoDB or cloud database
 
-⚠️ Notes
+## ⚠️ Notes
 1. Ensure Python and Flask are installed
 2. The project runs locally using SQLite
 3. No external database setup required
 
-💫 Final Thought: TripNest isn’t just a tracker—it’s a quiet companion for every place you dream of and every journey you complete.
+## 💫 Final Thought: TripNest isn’t just a tracker—it’s a quiet companion for every place you dream of and every journey you complete.
