@@ -102,8 +102,7 @@ feature-ui
 3. Styled entire application using CSS
 
 ## 🎥 Demo Video
-
-👉 Watch Project Demo
+👉 Watch Project Demo: https://drive.google.com/file/d/1j8HA8RfLFA-MusuHs6PwqvXASnwXAbEu/view?usp=sharing
 
 ## 📌 Future Enhancements
 1. 🔒 Password hashing for better security
