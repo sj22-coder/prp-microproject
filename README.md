@@ -46,22 +46,26 @@ TripNest/
 ```
 
 ## 🗄️ Database Schema (SQLite)
-1. Users Table:
-id (Primary Key)
-username (Unique)
-password
 
-2. Trips Table:
-id (Primary Key)
-place
-budget
-status (want / visited)
+### Users Table:
 
-3. Expenses Table:
-id (Primary Key)
-trip_id (Foreign Key)
-amount
-category
+- id (Primary Key)
+- username (Unique)
+- password
+
+### Trips Table:
+
+- id (Primary Key)
+- place
+- budget
+- status (want / visited)
+
+### Expenses Table:
+
+- id (Primary Key)
+- trip_id (Foreign Key)
+- amount
+- category
 
 ## ⚙️ How to Run the Project
 1. Clone the repository: git clone <your-repository-link>
@@ -73,24 +77,28 @@ category
 👉 The database will be automatically created when the app runs for the first time.
 
 ## 🔀 GitHub Collaboration
-Followed feature branch strategy
-Each module was developed separately
-Pull Requests were used before merging into main
-Regular commits made by all team members
 
-## Example branches:
-feature-auth
-feature-trips
-feature-expenses
-feature-dashboard
-feature-ui
+The project was developed using a branch-based workflow, where each team member worked on their own dedicated branch. Each developer implemented their assigned modules independently, and all changes were later merged into the main branch using Pull Requests.
+
+### 🌿 Branches Used
+
+**Developer-Simran-Joshi** 
+Implemented database setup, trip management, expense tracking, and main application integration  
+
+**Developer-Heer-Doshi**
+Developed authentication system and dashboard backend logic  
+
+**Developer-Harsh-Desai**  
+Designed user interface, templates, and overall styling
+
 
 ## 👥 Team Contributions:
 
 ## Simran Joshi - B022 
 1. Developed main application (app.py)
 2. Implemented trips and expenses modules
-3. Created add_trip and expenses templates
+3. Designed and implemented Database module (db.py)
+4. Created add_trip and expenses templates
 
 ## Heer Doshi - B012 
 1. Built authentication system (login/register)
@@ -102,7 +110,8 @@ feature-ui
 3. Styled entire application using CSS
 
 ## 🎥 Demo Video
-👉 Watch Project Demo: https://drive.google.com/file/d/1j8HA8RfLFA-MusuHs6PwqvXASnwXAbEu/view?usp=sharing
+👉 Watch Project Demo:
+ https://drive.google.com/file/d/1j8HA8RfLFA-MusuHs6PwqvXASnwXAbEu/view?usp=sharing
 
 ## 📌 Future Enhancements
 1. 🔒 Password hashing for better security
