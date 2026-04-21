@@ -82,15 +82,17 @@ The project was developed using a branch-based workflow, where each team member 
 
 ### 🌿 Branches Used
 
-**Developer-Simran-Joshi**
+**Developer-Simran-Joshi: **
  
 Implemented database setup, trip management, expense tracking, and main application integration  
 
-**Developer-Heer-Doshi**
 
-Developed authentication system and dashboard backend logic  
+**Developer-Heer-Doshi: **
 
-**Developer-Harsh-Desai**  
+Developed authentication system and dashboard backend logic
+  
+
+**Developer-Harsh-Desai: **  
 
 Designed user interface, templates, and overall styling
 
